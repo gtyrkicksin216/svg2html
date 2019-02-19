@@ -1,11 +1,14 @@
 {
-  "name": "svg2html",
-  "version": "0.1.0",
+  "name": "svg-to-html",
+  "version": "0.1.1",
   "description": "A converter that will crawl your files and directories to convert SVGs to HTML to allow them to be injected into templates with Angular",
-  "main": "index.js",
+  "main": "./bin/cli.js",
+  "bin": {
+    "svg2html": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "svg2html": "node index.js"
+    "dryrun": "echo \"Using the cli file\""
   },
   "keywords": [
     "SVG",
@@ -14,5 +17,6 @@
     "SVG2html"
   ],
   "author": "Ryan Wood",
-  "license": "ISC"
+  "license": "ISC",
+  "preferGlobal": true
 }
