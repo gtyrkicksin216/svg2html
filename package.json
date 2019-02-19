@@ -1,6 +1,6 @@
 {
   "name": "svg-to-html",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A converter that will crawl your files and directories to convert SVGs to HTML to allow them to be injected into templates with Angular",
   "main": "./bin/cli.js",
   "bin": {
